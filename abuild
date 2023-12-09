@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for i in ~/aur/*/ 
+do
+	cd $i
+	pwd
+	makepkg -csfi
+done
